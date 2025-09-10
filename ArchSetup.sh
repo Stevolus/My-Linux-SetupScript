@@ -8,10 +8,8 @@ sed -i '34iILoveCandy' /etc/pacman.conf
 pacman -Syu --noconfirm
 
 # Install common utils
-pacman -S wget git htop micro base-devel # Add more
+pacman -S wget git htop micro base-devel steam lutris sudo # Add more
 
 # Install yay package manager
 git clone https://aur.archlinux.org/yay.git && cd yay && makepkg -si && cd .. && rm -rf yay
-
-
 
